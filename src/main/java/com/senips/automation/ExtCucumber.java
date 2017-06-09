@@ -1,12 +1,11 @@
 package com.senips.automation;
 
 import cucumber.api.junit.Cucumber;
-import cucumber.runtime.*;
 import cucumber.runtime.Runtime;
+import cucumber.runtime.RuntimeOptions;
 import cucumber.runtime.io.ResourceLoader;
 import cucumber.runtime.io.ResourceLoaderClassFinder;
 import cucumber.runtime.junit.FeatureRunner;
-import cucumber.runtime.xstream.LocalizedXStreams;
 import org.junit.runner.notification.RunNotifier;
 import org.junit.runners.model.InitializationError;
 
